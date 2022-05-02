@@ -20,3 +20,25 @@ let aSentence = sentence.split("");
 aSentence.sort();
 
 console.log(aSentence);
+//////////////////////////////////////
+
+let number = Math.random()*100;
+console.log("Nombre aléatoire = " + number)
+
+/*
+* Permet d'enlever les chiffres après la virgule */
+let number2 = Number.parseInt(number);
+console.log("Nombre entier = " + number2)
+
+///////////////////////////////////
+/* 1er mai 2022 */
+let workFiesta = new Date(2022, 4, 1);
+
+console.log(workFiesta.getFullYear());
+console.log(workFiesta.getDate());
+console.log(workFiesta.getUTCDate());
+// console.log(workFiesta.toLocaleDateString("")) //
+
+
+
+
