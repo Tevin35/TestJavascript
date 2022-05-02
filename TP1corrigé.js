@@ -23,3 +23,25 @@ console.log(aNumber)
 
 //si tableau.length > 100 j'ARRÊTE
 
+//mettre les chiffres dans l'ordre !
+console.log("----------------------------")
+console.log(aNumber.sort(mySort))
+
+function mySort(a, b){
+    return a - b
+}
+
+///////////////////////////////////////////////////////
+//Question 2
+
+console.log("----------------------")
+
+let sentence="une chaine avec des lettres dans un certain ordre pour donner du sens";
+let tab = sentence.split("")
+console.log(tab.sort().join(""))
+
+///////////////////////////////////////////////////////
+//Question 3
+
+console.log("----------------------")
+
