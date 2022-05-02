@@ -42,6 +42,12 @@ console.log(tab.sort().join(""))
 
 ///////////////////////////////////////////////////////
 //Question 3
-
+//
 console.log("----------------------")
+let sentence2 = "une phrase sans majuscule";
+let tab2 = sentence2.split(" ")
+for(let i = 0; i < tab2.length;i++) {
+    tab2[i] = tab2[i].charAt(0).toUpperCase() + tab2[i].slice(1)
+}
 
+console.log(tab2.join(" "))
