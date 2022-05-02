@@ -47,5 +47,12 @@ console.log("Local =>" + aVariableWithoutVar);*/
 
 console.log("---------------------------------------")
 
-let aUndefinedVariable = null;
+let aUndefinedVariable;
+console.log(aUndefinedVariable);
+//utilisation du triple = qui teste le type de la variable
 console.log(aUndefinedVariable == undefined);
+console.log(aUndefinedVariable === null);
+
+//type NaN
+
+console.log(3 * "coucou");
