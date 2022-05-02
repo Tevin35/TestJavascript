@@ -15,3 +15,37 @@ function multiply(number) {
 }
 
 console.log("Le double de " + aNumber + " est " + result);
+
+// changement dynamique du type de la variable
+aNumber = "toto";
+
+console.log(aNumber)
+
+/////////////////////////////////////////////////////////
+var aGlobalVariable = "Bonjour global";
+
+treatment();
+function treatment() {
+
+    if(true){
+
+    let aLocalVariable = "Bonjour local";
+    aVariableWithoutVar = "Bonjour super global";
+    var aGlobalVariable = "Bonjour global";
+    console.log("Local => " + aLocalVariable);
+    console.log("Global => " + aGlobalVariable);
+
+    }
+
+
+}
+console.log("---------------------------------------")
+
+/*//console.log("Local =>" + aLocalVariable);
+console.log("Global =>" + aGlobalVariable);
+console.log("Local =>" + aVariableWithoutVar);*/
+
+console.log("---------------------------------------")
+
+let aUndefinedVariable = null;
+console.log(aUndefinedVariable == undefined);
